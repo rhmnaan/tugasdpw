@@ -1,0 +1,460 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+
+.fContainer-header {
+    background: rgb(226, 225, 225);
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.fContainer-header .nameweb {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.nameweb .firstname {
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+}
+
+.nameweb .lastname {
+    color: rgb(0, 4, 255);
+    padding-left: 1px;
+    font-weight: 700;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation > li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.navigation  > li > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+/* HEADER END */
+
+
+/* CONTENT */
+
+.container-content {
+    background: black;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.run-image {
+    width: 100%;
+    height: 600px;
+}
+
+.container-content2 {
+    margin-top: 130px;
+    background: cyan;
+    width: 100%;
+    height: 80vh;
+
+}
+
+.fcontainer-card {
+    background: rgb(255, 140, 0);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    background: red;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+}
+
+.card2 {
+    background: blue;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+}
+
+.card3 {
+    background: green;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+}
+
+.card4 {
+    background: aqua;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+}
+
+
+/* CONTENT END */
+
+
+/* FOOTER */
+
+.fcontainer-footer {
+    background: #222;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 70px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer-col {
+    width: 19%;
+    padding: 0 20px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #ffffff;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li:hover{
+    color: white;
+    padding-left: 8px;
+}
+
+.urut-image {
+    display: flex;
+}
+
+
+.logo1 {
+    width: 30px;
+    height: 30px;
+    transition: transform .3s;
+    margin-top: 5px;
+}
+
+
+.logo3 {
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+    transition: transform .3s;
+}
+
+.logo3:hover, .logo1:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+/* FOOTER END */
+
+
+
+
+
+
+
+
+
+
+=======
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/* HEADER */
+
+.fContainer-header {
+    background: rgb(226, 225, 225);
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.fContainer-header .nameweb {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.nameweb .firstname {
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+}
+
+.nameweb .lastname {
+    color: rgb(0, 4, 255);
+    padding-left: 1px;
+    font-weight: 700;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation > li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.navigation  > li > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+/* HEADER END */
+
+
+/* CONTENT */
+
+.container-content {
+    background: black;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.run-image {
+    width: 100%;
+    height: 600px;
+}
+
+.container-content2 {
+    margin-top: 130px;
+    background: cyan;
+    width: 100%;
+    height: 80vh;
+
+}
+
+.fcontainer-card {
+    background: rgb(255, 140, 0);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1 {
+    background: red;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+}
+
+.card2 {
+    background: blue;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+}
+
+.card3 {
+    background: green;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+}
+
+.card4 {
+    background: aqua;
+    width: 250px;
+    height: 400px;
+    margin: 50px;
+}
+
+
+/* CONTENT END */
+
+
+/* FOOTER */
+
+.fcontainer-footer {
+    background: #222;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 70px;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer-col {
+    width: 19%;
+    padding: 0 20px;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #ffffff;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li:hover{
+    color: white;
+    padding-left: 8px;
+}
+
+.urut-image {
+    display: flex;
+}
+
+
+.logo1 {
+    width: 30px;
+    height: 30px;
+    transition: transform .3s;
+    margin-top: 5px;
+}
+
+
+.logo3 {
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+    transition: transform .3s;
+}
+
+.logo3:hover, .logo1:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+/* FOOTER END */
+
+
+
+
+
+
+
+
+
+
+>>>>>>> e77f0d506fd965cbd7c3f10e00a70bbe7a0a304e
